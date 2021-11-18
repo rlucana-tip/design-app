@@ -5,5 +5,5 @@ RUN pip install -r /home/myapp/requirements.txt
 COPY ./static /home/myapp/static/
 COPY ./templates /home/myapp/templates/
 COPY login.py /home/myapp/
-EXPOSE 8080
+EXPOSE 5050
 CMD python3 /home/myapp/login.py
